@@ -7,13 +7,14 @@ import sqlite3
 import requests
 import tkinter
 from tkinter import messagebox, END
+import creds #API Key is very important don't share it to others
 
 
 
 #THE API Key and Search Engine (I had to use CHATGPT) to figure out how to create these 2
 #----------------API----------------------------
 
-API_KEY = "AIzaSyCvLlt5kR9WAVm_8Lal7NvvPxcvI7O7yzo" #This creates an agreement between googleAPI and me and like it knows that im the one using it
+API_KEY = creds.API_KEY #This creates an agreement between googleAPI and me and like it knows that im the one using it
 SEARCH_ENGINE_ID = "97dd7e609628d4593" #This is my own personally made google search engine that I will do the searching on. Well it's more like a copy of the google search engine you can make using CustomSearchEngine by google
 
 
